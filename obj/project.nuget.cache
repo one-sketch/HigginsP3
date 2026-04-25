@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "McMg0D1buVg=",
+  "dgSpecHash": "wBeFuh+qz6o=",
   "success": true,
-  "projectFilePath": "/Users/kyliehiggins/Desktop/Project/Project3/HigginsP3/HigginsP3.csproj",
+  "projectFilePath": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\HigginsP3.csproj",
   "expectedPackageFiles": [
-    "/Users/kyliehiggins/.nuget/packages/newtonsoft.json/13.0.4/newtonsoft.json.13.0.4.nupkg.sha512"
+    "C:\\Users\\mskhi\\.nuget\\packages\\newtonsoft.json\\13.0.4\\newtonsoft.json.13.0.4.nupkg.sha512"
   ],
   "logs": []
 }
