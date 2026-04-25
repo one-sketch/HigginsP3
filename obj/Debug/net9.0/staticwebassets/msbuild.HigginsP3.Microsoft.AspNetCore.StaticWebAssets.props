@@ -12,8 +12,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>adob6zq2r1</Fingerprint>
-      <Integrity>HqKJispyqoos9NguQKcy7hfZMfcVbbsq9TMJqZ6a94Q=</Integrity>
+      <Fingerprint>rnp3l2fbkd</Fingerprint>
+      <Integrity>WS7H68V9aZeBLesMfwczSWhRb3e/uR479PrjfLH1ITw=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\site.css'))</OriginalItemSpec>
@@ -66,8 +66,8 @@
       <RelatedAsset></RelatedAsset>
       <AssetTraitName></AssetTraitName>
       <AssetTraitValue></AssetTraitValue>
-      <Fingerprint>feslfbwlho</Fingerprint>
-      <Integrity>+cF8mWZTD4HMcKuzWfvN0CQ/AfLYCbKxHyIKwWFUTGw=</Integrity>
+      <Fingerprint>6h5elv6n9n</Fingerprint>
+      <Integrity>OkRF7Fpy6+11djxWScAfXp1+R3QZWhe7CM/cS2Aloys=</Integrity>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\js\site.js'))</OriginalItemSpec>
@@ -881,6 +881,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\bootstrap\LICENSE'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-cycle2\jquery.cycle2.min.js'))">
+      <SourceType>Package</SourceType>
+      <SourceId>HigginsP3</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/HigginsP3</BasePath>
+      <RelativePath>lib/jquery-cycle2/jquery.cycle2.min.js</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>lowbr5h6wz</Fingerprint>
+      <Integrity>NTmjaCiDyNhWLL/9tP5n1HwU8LT+gKLYpcLxzP1lIoc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-cycle2\jquery.cycle2.min.js'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\lib\jquery-ui\images\ui-icons_444444_256x240.png'))">
       <SourceType>Package</SourceType>

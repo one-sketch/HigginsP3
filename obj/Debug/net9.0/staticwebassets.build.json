@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nJ+RYrikeUIti/86C7m33O//Q56U5M3KV+4vqBuebsE=",
+  "Hash": "rRmWZhC6jcLEHZyMD4nQgWmy/yZpKTRgaJRbUshjzqA=",
   "Source": "HigginsP3",
   "BasePath": "_content/HigginsP3",
   "Mode": "Default",
@@ -731,12 +731,33 @@
       "OriginalItemSpec": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jnwqd1jbf8-adob6zq2r1.gz",
+      "Identity": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jm1ab253lu-lowbr5h6wz.gz",
       "SourceId": "HigginsP3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HigginsP3",
-      "RelativePath": "css/site#[.{fingerprint=adob6zq2r1}]?.css.gz",
+      "RelativePath": "lib/jquery-cycle2/jquery.cycle2.min#[.{fingerprint=lowbr5h6wz}]?.js.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\lib\\jquery-cycle2\\jquery.cycle2.min.js",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "wbvwze0fpi",
+      "Integrity": "ZN67vbafzRGy4Q7j/LP7b8QfQkaF1whTtVSzx+byPak=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\lib\\jquery-cycle2\\jquery.cycle2.min.js"
+    },
+    {
+      "Identity": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jnwqd1jbf8-rnp3l2fbkd.gz",
+      "SourceId": "HigginsP3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\",
+      "BasePath": "_content/HigginsP3",
+      "RelativePath": "css/site#[.{fingerprint=rnp3l2fbkd}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -745,8 +766,8 @@
       "RelatedAsset": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\css\\site.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "da5hc1b79o",
-      "Integrity": "+yqjcMfNjHarzfpSpZofW3+88LBXWfGzEJDGhP+hvyY=",
+      "Fingerprint": "xmfrjzerp4",
+      "Integrity": "6YYb5YD2Xjk3CEmh/RZaYTio3PwJYrOmhA5ZPT73pJ8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\css\\site.css"
@@ -815,12 +836,12 @@
       "OriginalItemSpec": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\l8385e7pit-feslfbwlho.gz",
+      "Identity": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\l8385e7pit-6h5elv6n9n.gz",
       "SourceId": "HigginsP3",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\",
       "BasePath": "_content/HigginsP3",
-      "RelativePath": "js/site#[.{fingerprint=feslfbwlho}]?.js.gz",
+      "RelativePath": "js/site#[.{fingerprint=6h5elv6n9n}]?.js.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -829,8 +850,8 @@
       "RelatedAsset": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\js\\site.js",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "qiymyz052b",
-      "Integrity": "vpkuuzfo7jCDz8Pk0vK6YnAFcfr1g9EqmoGTVxSJHs8=",
+      "Fingerprint": "7bfynxdwt9",
+      "Integrity": "/RKuUpjU+OvAw2m9+/ZiIzF6D8jB7IWx1vVX4wo5FvQ=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\js\\site.js"
@@ -1459,8 +1480,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "adob6zq2r1",
-      "Integrity": "HqKJispyqoos9NguQKcy7hfZMfcVbbsq9TMJqZ6a94Q=",
+      "Fingerprint": "rnp3l2fbkd",
+      "Integrity": "WS7H68V9aZeBLesMfwczSWhRb3e/uR479PrjfLH1ITw=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
@@ -1501,8 +1522,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "feslfbwlho",
-      "Integrity": "+cF8mWZTD4HMcKuzWfvN0CQ/AfLYCbKxHyIKwWFUTGw=",
+      "Fingerprint": "6h5elv6n9n",
+      "Integrity": "OkRF7Fpy6+11djxWScAfXp1+R3QZWhe7CM/cS2Aloys=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
@@ -2453,6 +2474,27 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+      "Identity": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\lib\\jquery-cycle2\\jquery.cycle2.min.js",
+      "SourceId": "HigginsP3",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\",
+      "BasePath": "_content/HigginsP3",
+      "RelativePath": "lib/jquery-cycle2/jquery.cycle2.min#[.{fingerprint}]?.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "lowbr5h6wz",
+      "Integrity": "NTmjaCiDyNhWLL/9tP5n1HwU8LT+gKLYpcLxzP1lIoc=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\jquery-cycle2\\jquery.cycle2.min.js"
+    },
+    {
       "Identity": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_444444_256x240.png",
       "SourceId": "HigginsP3",
       "SourceType": "Discovered",
@@ -2938,13 +2980,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "css/site.adob6zq2r1.css",
-      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jnwqd1jbf8-adob6zq2r1.gz",
+      "Route": "css/site.css",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jnwqd1jbf8-rnp3l2fbkd.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000665335995"
+          "Quality": "0.000214178625"
         }
       ],
       "ResponseHeaders": [
@@ -2954,19 +2996,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1502"
+          "Value": "4668"
         },
         {
           "Name": "ETag",
-          "Value": "\"+yqjcMfNjHarzfpSpZofW3+88LBXWfGzEJDGhP+hvyY=\""
+          "Value": "\"6YYb5YD2Xjk3CEmh/RZaYTio3PwJYrOmhA5ZPT73pJ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
+          "Value": "Sat, 25 Apr 2026 23:31:06 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2982,26 +3024,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"HqKJispyqoos9NguQKcy7hfZMfcVbbsq9TMJqZ6a94Q=\""
+          "Value": "W/\"WS7H68V9aZeBLesMfwczSWhRb3e/uR479PrjfLH1ITw=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "adob6zq2r1"
-        },
-        {
-          "Name": "label",
-          "Value": "css/site.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-HqKJispyqoos9NguQKcy7hfZMfcVbbsq9TMJqZ6a94Q="
+          "Value": "sha256-WS7H68V9aZeBLesMfwczSWhRb3e/uR479PrjfLH1ITw="
         }
       ]
     },
     {
-      "Route": "css/site.adob6zq2r1.css",
+      "Route": "css/site.css",
       "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\css\\site.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -3011,7 +3045,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "7056"
+          "Value": "26818"
         },
         {
           "Name": "Content-Type",
@@ -3019,11 +3053,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"HqKJispyqoos9NguQKcy7hfZMfcVbbsq9TMJqZ6a94Q=\""
+          "Value": "\"WS7H68V9aZeBLesMfwczSWhRb3e/uR479PrjfLH1ITw=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
+          "Value": "Sat, 25 Apr 2026 23:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-WS7H68V9aZeBLesMfwczSWhRb3e/uR479PrjfLH1ITw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.css.gz",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jnwqd1jbf8-rnp3l2fbkd.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4668"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6YYb5YD2Xjk3CEmh/RZaYTio3PwJYrOmhA5ZPT73pJ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 23:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-6YYb5YD2Xjk3CEmh/RZaYTio3PwJYrOmhA5ZPT73pJ8="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.rnp3l2fbkd.css",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jnwqd1jbf8-rnp3l2fbkd.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000214178625"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4668"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"6YYb5YD2Xjk3CEmh/RZaYTio3PwJYrOmhA5ZPT73pJ8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 23:31:06 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"WS7H68V9aZeBLesMfwczSWhRb3e/uR479PrjfLH1ITw=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "rnp3l2fbkd"
+        },
+        {
+          "Name": "label",
+          "Value": "css/site.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-WS7H68V9aZeBLesMfwczSWhRb3e/uR479PrjfLH1ITw="
+        }
+      ]
+    },
+    {
+      "Route": "css/site.rnp3l2fbkd.css",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\css\\site.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "26818"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"WS7H68V9aZeBLesMfwczSWhRb3e/uR479PrjfLH1ITw=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 23:31:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3033,7 +3212,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "adob6zq2r1"
+          "Value": "rnp3l2fbkd"
         },
         {
           "Name": "label",
@@ -3041,13 +3220,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-HqKJispyqoos9NguQKcy7hfZMfcVbbsq9TMJqZ6a94Q="
+          "Value": "sha256-WS7H68V9aZeBLesMfwczSWhRb3e/uR479PrjfLH1ITw="
         }
       ]
     },
     {
-      "Route": "css/site.adob6zq2r1.css.gz",
-      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jnwqd1jbf8-adob6zq2r1.gz",
+      "Route": "css/site.rnp3l2fbkd.css.gz",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jnwqd1jbf8-rnp3l2fbkd.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -3056,7 +3235,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1502"
+          "Value": "4668"
         },
         {
           "Name": "Content-Type",
@@ -3064,11 +3243,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+yqjcMfNjHarzfpSpZofW3+88LBXWfGzEJDGhP+hvyY=\""
+          "Value": "\"6YYb5YD2Xjk3CEmh/RZaYTio3PwJYrOmhA5ZPT73pJ8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
+          "Value": "Sat, 25 Apr 2026 23:31:06 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3086,7 +3265,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "adob6zq2r1"
+          "Value": "rnp3l2fbkd"
         },
         {
           "Name": "label",
@@ -3094,144 +3273,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+yqjcMfNjHarzfpSpZofW3+88LBXWfGzEJDGhP+hvyY="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jnwqd1jbf8-adob6zq2r1.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000665335995"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1502"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+yqjcMfNjHarzfpSpZofW3+88LBXWfGzEJDGhP+hvyY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"HqKJispyqoos9NguQKcy7hfZMfcVbbsq9TMJqZ6a94Q=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HqKJispyqoos9NguQKcy7hfZMfcVbbsq9TMJqZ6a94Q="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css",
-      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\css\\site.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "7056"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"HqKJispyqoos9NguQKcy7hfZMfcVbbsq9TMJqZ6a94Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-HqKJispyqoos9NguQKcy7hfZMfcVbbsq9TMJqZ6a94Q="
-        }
-      ]
-    },
-    {
-      "Route": "css/site.css.gz",
-      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jnwqd1jbf8-adob6zq2r1.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1502"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"+yqjcMfNjHarzfpSpZofW3+88LBXWfGzEJDGhP+hvyY=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-+yqjcMfNjHarzfpSpZofW3+88LBXWfGzEJDGhP+hvyY="
+          "Value": "sha256-6YYb5YD2Xjk3CEmh/RZaYTio3PwJYrOmhA5ZPT73pJ8="
         }
       ]
     },
@@ -3558,7 +3600,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3611,7 +3653,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3648,7 +3690,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3695,7 +3737,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3756,7 +3798,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3801,7 +3843,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3856,7 +3898,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3917,7 +3959,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -3962,7 +4004,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4017,7 +4059,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4070,7 +4112,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4107,7 +4149,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 23:00:41 GMT"
+          "Value": "Sat, 25 Apr 2026 23:36:45 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4130,13 +4172,13 @@
       ]
     },
     {
-      "Route": "js/site.feslfbwlho.js",
-      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\l8385e7pit-feslfbwlho.gz",
+      "Route": "js/site.6h5elv6n9n.js",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\l8385e7pit-6h5elv6n9n.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003508771930"
+          "Quality": "0.001388888889"
         }
       ],
       "ResponseHeaders": [
@@ -4146,15 +4188,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "284"
+          "Value": "719"
         },
         {
           "Name": "ETag",
-          "Value": "\"vpkuuzfo7jCDz8Pk0vK6YnAFcfr1g9EqmoGTVxSJHs8=\""
+          "Value": "\"/RKuUpjU+OvAw2m9+/ZiIzF6D8jB7IWx1vVX4wo5FvQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
+          "Value": "Sat, 25 Apr 2026 23:31:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4174,13 +4216,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+cF8mWZTD4HMcKuzWfvN0CQ/AfLYCbKxHyIKwWFUTGw=\""
+          "Value": "W/\"OkRF7Fpy6+11djxWScAfXp1+R3QZWhe7CM/cS2Aloys=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "feslfbwlho"
+          "Value": "6h5elv6n9n"
         },
         {
           "Name": "label",
@@ -4188,12 +4230,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+cF8mWZTD4HMcKuzWfvN0CQ/AfLYCbKxHyIKwWFUTGw="
+          "Value": "sha256-OkRF7Fpy6+11djxWScAfXp1+R3QZWhe7CM/cS2Aloys="
         }
       ]
     },
     {
-      "Route": "js/site.feslfbwlho.js",
+      "Route": "js/site.6h5elv6n9n.js",
       "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\js\\site.js",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4203,7 +4245,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "395"
+          "Value": "2203"
         },
         {
           "Name": "Content-Type",
@@ -4211,11 +4253,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+cF8mWZTD4HMcKuzWfvN0CQ/AfLYCbKxHyIKwWFUTGw=\""
+          "Value": "\"OkRF7Fpy6+11djxWScAfXp1+R3QZWhe7CM/cS2Aloys=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
+          "Value": "Sat, 25 Apr 2026 23:31:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4225,7 +4267,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "feslfbwlho"
+          "Value": "6h5elv6n9n"
         },
         {
           "Name": "label",
@@ -4233,13 +4275,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-+cF8mWZTD4HMcKuzWfvN0CQ/AfLYCbKxHyIKwWFUTGw="
+          "Value": "sha256-OkRF7Fpy6+11djxWScAfXp1+R3QZWhe7CM/cS2Aloys="
         }
       ]
     },
     {
-      "Route": "js/site.feslfbwlho.js.gz",
-      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\l8385e7pit-feslfbwlho.gz",
+      "Route": "js/site.6h5elv6n9n.js.gz",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\l8385e7pit-6h5elv6n9n.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4248,7 +4290,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "284"
+          "Value": "719"
         },
         {
           "Name": "Content-Type",
@@ -4256,11 +4298,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vpkuuzfo7jCDz8Pk0vK6YnAFcfr1g9EqmoGTVxSJHs8=\""
+          "Value": "\"/RKuUpjU+OvAw2m9+/ZiIzF6D8jB7IWx1vVX4wo5FvQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
+          "Value": "Sat, 25 Apr 2026 23:31:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4278,7 +4320,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "feslfbwlho"
+          "Value": "6h5elv6n9n"
         },
         {
           "Name": "label",
@@ -4286,18 +4328,18 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-vpkuuzfo7jCDz8Pk0vK6YnAFcfr1g9EqmoGTVxSJHs8="
+          "Value": "sha256-/RKuUpjU+OvAw2m9+/ZiIzF6D8jB7IWx1vVX4wo5FvQ="
         }
       ]
     },
     {
       "Route": "js/site.js",
-      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\l8385e7pit-feslfbwlho.gz",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\l8385e7pit-6h5elv6n9n.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.003508771930"
+          "Quality": "0.001388888889"
         }
       ],
       "ResponseHeaders": [
@@ -4307,15 +4349,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "284"
+          "Value": "719"
         },
         {
           "Name": "ETag",
-          "Value": "\"vpkuuzfo7jCDz8Pk0vK6YnAFcfr1g9EqmoGTVxSJHs8=\""
+          "Value": "\"/RKuUpjU+OvAw2m9+/ZiIzF6D8jB7IWx1vVX4wo5FvQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
+          "Value": "Sat, 25 Apr 2026 23:31:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4335,13 +4377,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"+cF8mWZTD4HMcKuzWfvN0CQ/AfLYCbKxHyIKwWFUTGw=\""
+          "Value": "W/\"OkRF7Fpy6+11djxWScAfXp1+R3QZWhe7CM/cS2Aloys=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+cF8mWZTD4HMcKuzWfvN0CQ/AfLYCbKxHyIKwWFUTGw="
+          "Value": "sha256-OkRF7Fpy6+11djxWScAfXp1+R3QZWhe7CM/cS2Aloys="
         }
       ]
     },
@@ -4356,7 +4398,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "395"
+          "Value": "2203"
         },
         {
           "Name": "Content-Type",
@@ -4364,11 +4406,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"+cF8mWZTD4HMcKuzWfvN0CQ/AfLYCbKxHyIKwWFUTGw=\""
+          "Value": "\"OkRF7Fpy6+11djxWScAfXp1+R3QZWhe7CM/cS2Aloys=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
+          "Value": "Sat, 25 Apr 2026 23:31:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4378,13 +4420,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-+cF8mWZTD4HMcKuzWfvN0CQ/AfLYCbKxHyIKwWFUTGw="
+          "Value": "sha256-OkRF7Fpy6+11djxWScAfXp1+R3QZWhe7CM/cS2Aloys="
         }
       ]
     },
     {
       "Route": "js/site.js.gz",
-      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\l8385e7pit-feslfbwlho.gz",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\l8385e7pit-6h5elv6n9n.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4393,7 +4435,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "284"
+          "Value": "719"
         },
         {
           "Name": "Content-Type",
@@ -4401,11 +4443,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"vpkuuzfo7jCDz8Pk0vK6YnAFcfr1g9EqmoGTVxSJHs8=\""
+          "Value": "\"/RKuUpjU+OvAw2m9+/ZiIzF6D8jB7IWx1vVX4wo5FvQ=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 25 Apr 2026 22:59:08 GMT"
+          "Value": "Sat, 25 Apr 2026 23:31:15 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4423,7 +4465,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-vpkuuzfo7jCDz8Pk0vK6YnAFcfr1g9EqmoGTVxSJHs8="
+          "Value": "sha256-/RKuUpjU+OvAw2m9+/ZiIzF6D8jB7IWx1vVX4wo5FvQ="
         }
       ]
     },
@@ -17618,6 +17660,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-ZH6pA6BSx6fuHZvdaKph1DwUJ+VSYilIiEQu8ilnvqk="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-cycle2/jquery.cycle2.min.js",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jm1ab253lu-lowbr5h6wz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000139801482"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7152"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZN67vbafzRGy4Q7j/LP7b8QfQkaF1whTtVSzx+byPak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 23:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NTmjaCiDyNhWLL/9tP5n1HwU8LT+gKLYpcLxzP1lIoc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTmjaCiDyNhWLL/9tP5n1HwU8LT+gKLYpcLxzP1lIoc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-cycle2/jquery.cycle2.min.js",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\lib\\jquery-cycle2\\jquery.cycle2.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NTmjaCiDyNhWLL/9tP5n1HwU8LT+gKLYpcLxzP1lIoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 23:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTmjaCiDyNhWLL/9tP5n1HwU8LT+gKLYpcLxzP1lIoc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-cycle2/jquery.cycle2.min.js.gz",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jm1ab253lu-lowbr5h6wz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZN67vbafzRGy4Q7j/LP7b8QfQkaF1whTtVSzx+byPak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 23:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZN67vbafzRGy4Q7j/LP7b8QfQkaF1whTtVSzx+byPak="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-cycle2/jquery.cycle2.min.lowbr5h6wz.js",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jm1ab253lu-lowbr5h6wz.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000139801482"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7152"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZN67vbafzRGy4Q7j/LP7b8QfQkaF1whTtVSzx+byPak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 23:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"NTmjaCiDyNhWLL/9tP5n1HwU8LT+gKLYpcLxzP1lIoc=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lowbr5h6wz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-cycle2/jquery.cycle2.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTmjaCiDyNhWLL/9tP5n1HwU8LT+gKLYpcLxzP1lIoc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-cycle2/jquery.cycle2.min.lowbr5h6wz.js",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\lib\\jquery-cycle2\\jquery.cycle2.min.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "22953"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"NTmjaCiDyNhWLL/9tP5n1HwU8LT+gKLYpcLxzP1lIoc=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 23:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lowbr5h6wz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-cycle2/jquery.cycle2.min.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-NTmjaCiDyNhWLL/9tP5n1HwU8LT+gKLYpcLxzP1lIoc="
+        }
+      ]
+    },
+    {
+      "Route": "lib/jquery-cycle2/jquery.cycle2.min.lowbr5h6wz.js.gz",
+      "AssetFile": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\obj\\Debug\\net9.0\\compressed\\jm1ab253lu-lowbr5h6wz.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "7152"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ZN67vbafzRGy4Q7j/LP7b8QfQkaF1whTtVSzx+byPak=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 25 Apr 2026 23:34:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "lowbr5h6wz"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/jquery-cycle2/jquery.cycle2.min.js.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ZN67vbafzRGy4Q7j/LP7b8QfQkaF1whTtVSzx+byPak="
         }
       ]
     },

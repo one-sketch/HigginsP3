@@ -1,64 +1,145 @@
 @model HigginsP3.Models.PeopleModel
 @{
-    ViewData["Title"] = "People";}
-<h1>@Model.title</h1>
-<p>@Model.subTitle</p>
+    ViewData["Title"] = "People";
+}
 
-<hr>
-<div id="peopletabs">
-  <ul>
-    <li><a href="#factabs-1">Faculty</a></li>
-    <li><a href="#stafftabs-2">Staff</a></li>
-  </ul>
-  <div id="factabs-1">
-    <h2>Faculty</h2>
-
-    @foreach (var p in Model.faculty)
-    {
-        <div class="person">
-            <img src="@p.imagePath" width="120" />
-
-            <h3>@p.name</h3>
-            <p>@p.title</p>
-            <p>@p.tagline</p>
-            <p>@p.interestArea</p>
-            <p>@p.office</p>
-            <p>@p.phone</p>
-            <p>@p.email</p>
-
-            @if (!string.IsNullOrEmpty(p.website))
-            {
-                <a href="@p.website" target="_blank">Website</a>
-            }
-
-            <hr />
-        </div>
-    }
-  </div>
-  <div id="stafftabs-2">
-    <h2>Staff</h2>
-
-    @foreach (var p in Model.staff)
-    {
-        <div class="person">
-            <img src="@p.imagePath" width="120" />
-
-            <h3>@p.name</h3>
-            <p>@p.title</p>
-            <p>@p.tagline</p>
-            <p>@p.interestArea</p>
-            <p>@p.office</p>
-            <p>@p.phone</p>
-            <p>@p.email</p>
-
-            @if (!string.IsNullOrEmpty(p.website))
-            {
-                <a href="@p.website" target="_blank">Website</a>
-            }
-
-            <hr />
-        </div>
-    }
-  </div>
+<div class="page-hero">
+    <div class="page-hero-inner">
+        <p class="page-eyebrow">People</p>
+        <h1 class="page-title">@Model.title</h1>
+        @if (!string.IsNullOrEmpty(Model.subTitle))
+        {
+            <p class="page-subtitle">@Model.subTitle</p>
+        }
+    </div>
 </div>
-<hr />
+
+<div class="content-section">
+    <div class="content-inner">
+
+        <div id="peopletabs" class="people-tabs">
+            <ul>
+                <li><a href="#tab-faculty">Faculty</a></li>
+                <li><a href="#tab-staff">Staff</a></li>
+            </ul>
+
+            <!-- FACULTY TAB -->
+            <div id="tab-faculty">
+                <div class="people-grid">
+                    @foreach (var p in Model.faculty)
+                    {
+                        <div class="person-card">
+                            <div class="person-img-wrap">
+                                <img src="@p.imagePath"
+                                     alt="@p.name"
+                                     onerror="this.src='/img/placeholder.png'; this.onerror=null;" />
+                            </div>
+                            <div class="person-info">
+                                <div class="person-name">@p.name</div>
+                                <div class="person-title">@p.title</div>
+                                @if (!string.IsNullOrEmpty(p.tagline))
+                                {
+                                    <div class="person-tagline">@p.tagline</div>
+                                }
+                                <div class="person-meta">
+                                    @if (!string.IsNullOrEmpty(p.interestArea))
+                                    {
+                                        <div class="person-meta-row">
+                                            <span class="meta-label">Interest</span>
+                                            <span>@p.interestArea</span>
+                                        </div>
+                                    }
+                                    @if (!string.IsNullOrEmpty(p.office))
+                                    {
+                                        <div class="person-meta-row">
+                                            <span class="meta-label">Office</span>
+                                            <span>@p.office</span>
+                                        </div>
+                                    }
+                                    @if (!string.IsNullOrEmpty(p.phone))
+                                    {
+                                        <div class="person-meta-row">
+                                            <span class="meta-label">Phone</span>
+                                            <span>@p.phone</span>
+                                        </div>
+                                    }
+                                    @if (!string.IsNullOrEmpty(p.email))
+                                    {
+                                        <div class="person-meta-row">
+                                            <span class="meta-label">Email</span>
+                                            <a href="mailto:@p.email">@p.email</a>
+                                        </div>
+                                    }
+                                </div>
+                                <div class="person-links">
+                                    @if (!string.IsNullOrEmpty(p.website))
+                                    {
+                                        <a href="@p.website" target="_blank" class="person-link">Website →</a>
+                                    }
+                                    @if (!string.IsNullOrEmpty(p.twitter))
+                                    {
+                                        <a href="@p.twitter" target="_blank" class="person-link">Twitter</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+            <!-- STAFF TAB -->
+            <div id="tab-staff">
+                <div class="people-grid">
+                    @foreach (var p in Model.staff)
+                    {
+                        <div class="person-card">
+                            <div class="person-img-wrap">
+                                <img src="@p.imagePath"
+                                     alt="@p.name"
+                                     onerror="this.src='/img/placeholder.png'; this.onerror=null;" />
+                            </div>
+                            <div class="person-info">
+                                <div class="person-name">@p.name</div>
+                                <div class="person-title">@p.title</div>
+                                @if (!string.IsNullOrEmpty(p.tagline))
+                                {
+                                    <div class="person-tagline">@p.tagline</div>
+                                }
+                                <div class="person-meta">
+                                    @if (!string.IsNullOrEmpty(p.office))
+                                    {
+                                        <div class="person-meta-row">
+                                            <span class="meta-label">Office</span>
+                                            <span>@p.office</span>
+                                        </div>
+                                    }
+                                    @if (!string.IsNullOrEmpty(p.phone))
+                                    {
+                                        <div class="person-meta-row">
+                                            <span class="meta-label">Phone</span>
+                                            <span>@p.phone</span>
+                                        </div>
+                                    }
+                                    @if (!string.IsNullOrEmpty(p.email))
+                                    {
+                                        <div class="person-meta-row">
+                                            <span class="meta-label">Email</span>
+                                            <a href="mailto:@p.email">@p.email</a>
+                                        </div>
+                                    }
+                                </div>
+                                <div class="person-links">
+                                    @if (!string.IsNullOrEmpty(p.website))
+                                    {
+                                        <a href="@p.website" target="_blank" class="person-link">Website →</a>
+                                    }
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+
+        </div><!-- /peopletabs -->
+    </div>
+</div>

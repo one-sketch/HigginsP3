@@ -1,133 +1,159 @@
 @model HigginsP3.Models.EmploymentModel
+@{
+    ViewData["Title"] = "Employment";
+}
 
-
-<div class="section-wrapper">
-    <div class="section-label">Career Outcomes</div>
-
-    <h1 class="section-title">@Model.introduction.title</h1>
-
-    @foreach (var block in Model.introduction.content)
-    {
-        <p class="employment-section-text">@block.description</p>
-    }
+<!-- HERO -->
+<div class="page-hero">
+    <div class="page-hero-inner">
+        <p class="page-eyebrow">Career Outcomes</p>
+        <h1 class="page-title">@Model.introduction?.title</h1>
+    </div>
 </div>
 
-@if (Model?.degreeStatistics?.statistics != null)
-{
-    <div class="section-wrapper">
-        <div class="section-label">Degree Statistics — At a Glance</div>
-
-        @foreach (var stat in Model.degreeStatistics.statistics)
+<!-- INTRO TEXT -->
+<div class="content-section">
+    <div class="content-inner">
+        @if (Model.introduction?.content != null)
         {
-            <div class="employment-stat">
-                <div class="employment-stat-value">@stat.value</div>
-                <div class="employment-stat-desc">@stat.description</div>
-            </div>
+            foreach (var block in Model.introduction.content)
+            {
+                <p class="employment-section-text">@block.description</p>
+            }
         }
+    </div>
+</div>
+
+<!-- DEGREE STATS -->
+@if (Model.degreeStatistics?.statistics != null)
+{
+    <div class="stats-band">
+        <div class="stats-label">@Model.degreeStatistics.title</div>
+        <div class="stats-grid">
+            @foreach (var stat in Model.degreeStatistics.statistics)
+            {
+                <div class="stat-item">
+                    <div class="stat-value">@stat.value</div>
+                    <div class="stat-desc">@stat.description</div>
+                </div>
+            }
+        </div>
     </div>
 }
 
-<div class="table-block">
-    <div class="table-block-title">Selected Employers</div>
+<!-- EMPLOYERS + CAREERS (2-col) -->
+<div class="content-section">
+    <div class="content-inner two-col-lists">
 
-    <div class="datagrid-wrap">
-        <div style="padding: 1.5rem;">
-            @if (Model?.employers?.employerNames != null)
-            {
-                foreach (var emp in Model.employers.employerNames)
-                {
-                    <div class="employer-item">
-                        @emp
-                    </div>
-                }
-            }
-        </div>
-    </div>
-</div>
-<div class="table-block">
-    <div class="table-block-title">Career Titles</div>
-
-    <div class="datagrid-wrap">
-        <div style="padding: 1.5rem;">
-            @if (Model?.careers?.careerNames != null)
-            {
-                foreach (var career in Model.careers.careerNames)
-                {
-                    <div class="career-item">
-                        @career
-                    </div>
-                }
-            }
-        </div>
-    </div>
-</div>
-<div class="table-block">
-    <div class="table-block-title">Co-op Table</div>
-    <div class="datagrid-wrap">
-        <table id="coopTable">
-            <thead>
-                <tr>
-                    <th>Employer</th>
-                    <th>Degree</th>
-                    <th>City</th>
-                    <th>Term</th>
-                </tr>
-            </thead>
-            <tbody>
-                @foreach (var item in Model.coopTable.coopInformation)
-                {
-                    <tr>
-                        <td>@item.employer</td>
-                        <td>@item.degree</td>
-                        <td>@item.city</td>
-                        <td>@item.term</td>
-                    </tr>
-                }
-            </tbody>
-        </table>
-    </div>
-</div>
-<div class="table-block">
-    <div class="table-block-title">Employment Table</div>
-    <div class="datagrid-wrap">
-
-<table id="employmentTable">
-    <thead>
-        <tr>
-            <th>Employer</th>
-            <th>Degree</th>
-            <th>City</th>
-            <th>Title</th>
-            <th>Start Date</th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var job in Model.employmentTable.professionalEmploymentInformation)
+        @if (Model.employers?.employerNames != null)
         {
-            <tr>
-                <td>@job.employer</td>
-                <td>@job.degree</td>
-                <td>@job.city</td>
-                <td>@job.title</td>
-                <td>@job.startDate</td>
-            </tr>
+            <div class="list-block">
+                <div class="list-block-title">@Model.employers.title</div>
+                <ul class="plain-list">
+                    @foreach (var emp in Model.employers.employerNames)
+                    {
+                        <li>@emp</li>
+                    }
+                </ul>
+            </div>
         }
-    </tbody>
-</table>
+
+        @if (Model.careers?.careerNames != null)
+        {
+            <div class="list-block">
+                <div class="list-block-title">@Model.careers.title</div>
+                <ul class="plain-list">
+                    @foreach (var career in Model.careers.careerNames)
+                    {
+                        <li>@career</li>
+                    }
+                </ul>
+            </div>
+        }
+
     </div>
-</div>  
 </div>
+
+<!-- CO-OP TABLE -->
+@if (Model.coopTable?.coopInformation != null)
+{
+    <div class="content-section">
+        <div class="content-inner">
+            <div class="table-section-title">@Model.coopTable.title</div>
+            <div class="table-wrap">
+                <table id="coopTable" class="display" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Employer</th>
+                            <th>Degree</th>
+                            <th>City</th>
+                            <th>Term</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in Model.coopTable.coopInformation)
+                        {
+                            <tr>
+                                <td>@item.employer</td>
+                                <td>@item.degree</td>
+                                <td>@item.city</td>
+                                <td>@item.term</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
+<!-- EMPLOYMENT TABLE -->
+@if (Model.employmentTable?.professionalEmploymentInformation != null)
+{
+    <div class="content-section">
+        <div class="content-inner">
+            <div class="table-section-title">@Model.employmentTable.title</div>
+            <div class="table-wrap">
+                <table id="employmentTable" class="display" style="width:100%">
+                    <thead>
+                        <tr>
+                            <th>Employer</th>
+                            <th>Degree</th>
+                            <th>City</th>
+                            <th>Title</th>
+                            <th>Start Date</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var job in Model.employmentTable.professionalEmploymentInformation)
+                        {
+                            <tr>
+                                <td>@job.employer</td>
+                                <td>@job.degree</td>
+                                <td>@job.city</td>
+                                <td>@job.title</td>
+                                <td>@job.startDate</td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+}
+
 @section Scripts {
 <script>
-    $(document).ready(function () {
+    $(function () {
         $('#coopTable').DataTable({
-            pageLength: 5,
-            lengthChange: false
+            pageLength: 10,
+            lengthChange: false,
+            responsive: true
         });
-
         $('#employmentTable').DataTable({
-            pageLength: 5,
-            lengthChange: false
+            pageLength: 10,
+            lengthChange: false,
+            responsive: true
         });
     });
 </script>

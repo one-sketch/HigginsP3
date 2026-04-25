@@ -1,30 +1,164 @@
-
 @model HigginsP3.Models.MinorsModel
+@{
+    ViewData["Title"] = "Minors";
+}
 
-<div class="section-wrapper">
-    <div class="section-label">Minors</div>
-    <h1 class="section-title">Undergraduate Minors</h1>
-    <p class="section-subtitle">Explore available minors and required courses</p>
-
-    <div class="minors-grid">
-        @foreach (var m in Model.UgMinors)
-        {
-            <div class="card fade-up">
-                <h3>@m.title</h3>
-                <p>@m.description</p>
-
-                <div class="courses">
-                    @foreach (var c in m.courses)
-                    {
-                        <span class="tag">@c</span>
-                    }
-                </div>
-
-                @if (!string.IsNullOrEmpty(m.note))
-                {
-                    <p class="mono note">@m.note</p>
-                }
-            </div>
-        }
+<div class="page-hero">
+    <div class="page-hero-inner">
+        <p class="page-eyebrow">Academics</p>
+        <h1 class="page-title">Undergraduate Minors</h1>
+        <p class="page-subtitle">Explore the available minors and their required courses. Click any course code for details.</p>
     </div>
 </div>
+
+<div class="content-section">
+    <div class="content-inner">
+        <div class="minors-grid">
+            @foreach (var m in Model.UgMinors)
+            {
+                <div class="minor-card fade-up">
+                    <div class="minor-name">@m.name</div>
+                    <div class="minor-title">@m.title</div>
+                    <p class="minor-desc">@m.description</p>
+
+                    @if (m.courses != null && m.courses.Count > 0)
+                    {
+                        <div class="minor-courses">
+                            @foreach (var c in m.courses)
+                            {
+                                <span class="tag course-tag" data-course="@c">@c</span>
+                            }
+                        </div>
+                    }
+
+                    @if (!string.IsNullOrEmpty(m.note))
+                    {
+                        <p class="minor-note">@m.note</p>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+</div>
+
+<!-- ── COURSE SIDEBAR MODAL ── -->
+<div id="course-overlay" class="course-overlay" aria-hidden="true"></div>
+
+<aside id="course-sidebar" class="course-sidebar" aria-hidden="true" role="dialog" aria-label="Course Details">
+    <button id="course-sidebar-close" class="sidebar-close" aria-label="Close">&times;</button>
+
+    <div id="course-sidebar-loading" class="sidebar-loading">
+        <div class="sidebar-spinner"></div>
+        <span>Loading course…</span>
+    </div>
+
+    <div id="course-sidebar-content" class="sidebar-content" style="display:none;">
+        <p class="sidebar-eyebrow" id="course-id-label"></p>
+        <h2 class="sidebar-title" id="course-title"></h2>
+        <div class="sidebar-divider"></div>
+        <div class="sidebar-body" id="course-body"></div>
+    </div>
+
+    <div id="course-sidebar-error" class="sidebar-error" style="display:none;">
+        <p>Could not load course details. Please try again.</p>
+    </div>
+</aside>
+
+@section Scripts {
+<script>
+$(function () {
+
+    // Proxy through our own controller to avoid CORS
+
+    // ── helpers ──────────────────────────────────────────────────────
+    function openSidebar() {
+        $("#course-sidebar").addClass("open").attr("aria-hidden", "false");
+        $("#course-overlay").addClass("open");
+        $("body").addClass("sidebar-open");
+    }
+
+    function closeSidebar() {
+        $("#course-sidebar").removeClass("open").attr("aria-hidden", "true");
+        $("#course-overlay").removeClass("open");
+        $("body").removeClass("sidebar-open");
+    }
+
+    function showLoading() {
+        $("#course-sidebar-loading").show();
+        $("#course-sidebar-content").hide();
+        $("#course-sidebar-error").hide();
+    }
+
+    function showContent(data) {
+        var course = Array.isArray(data) ? data[0] : data;
+
+        $("#course-id-label").text(course.courseID || course.name || "");
+        $("#course-title").text(course.title || course.courseName || "No title available");
+
+        var html = "";
+
+        if (course.description) {
+            html += '<p class="sidebar-description">' + $("<div>").text(course.description).html() + "</p>";
+        }
+        if (course.credits) {
+            html += '<div class="sidebar-meta-row"><span class="sidebar-meta-label">Credits</span><span>' + course.credits + "</span></div>";
+        }
+        if (course.prerequisites && course.prerequisites.length) {
+            var prereqs = Array.isArray(course.prerequisites)
+                ? course.prerequisites.join(", ")
+                : course.prerequisites;
+            html += '<div class="sidebar-meta-row"><span class="sidebar-meta-label">Prerequisites</span><span>' + $("<div>").text(prereqs).html() + "</span></div>";
+        }
+        if (course.offered) {
+            html += '<div class="sidebar-meta-row"><span class="sidebar-meta-label">Offered</span><span>' + $("<div>").text(course.offered).html() + "</span></div>";
+        }
+
+        if (!html) {
+            html = '<p class="sidebar-description" style="color:var(--gray-400);">No additional details available for this course.</p>';
+        }
+
+        $("#course-body").html(html);
+        $("#course-sidebar-loading").hide();
+        $("#course-sidebar-content").show();
+        $("#course-sidebar-error").hide();
+    }
+
+    function showError() {
+        $("#course-sidebar-loading").hide();
+        $("#course-sidebar-content").hide();
+        $("#course-sidebar-error").show();
+    }
+
+    // ── click any course tag ─────────────────────────────────────────
+    $(document).on("click", ".course-tag", function () {
+        var courseID = $(this).data("course");
+        openSidebar();
+        showLoading();
+
+        $.ajax({
+            url: "/Home/Course?id=" + encodeURIComponent(courseID),
+            method: "GET",
+            dataType: "json",
+            timeout: 8000,
+            success: function (data) {
+                if (data && !$.isEmptyObject(data)) {
+                    showContent(data);
+                } else {
+                    showError();
+                }
+            },
+            error: function () {
+                showError();
+            }
+        });
+    });
+
+    // ── close sidebar ───────────────────────────────────────────────
+    $("#course-sidebar-close, #course-overlay").on("click", closeSidebar);
+
+    $(document).on("keydown", function (e) {
+        if (e.key === "Escape") closeSidebar();
+    });
+});
+</script>
+}

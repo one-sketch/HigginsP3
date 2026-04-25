@@ -197,6 +197,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+      "Id": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\lib\\jquery-cycle2\\jquery.cycle2.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-cycle2\\jquery.cycle2.min.js"
+    },
+    {
       "Id": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\lib\\jquery-ui\\images\\ui-icons_444444_256x240.png",
       "PackagePath": "staticwebassets\\lib\\jquery-ui\\images\\ui-icons_444444_256x240.png"
     },

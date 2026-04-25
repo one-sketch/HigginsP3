@@ -1,11 +1,65 @@
 @{
-    ViewData["Title"] = "RIT iSchool";
+    ViewData["Title"] = "Home";
 }
 
-<!-- This will be replaced by the actual sections from partials -->
-<!-- Since we want all sections on one page like the React version -->
-@await Component.InvokeAsync("About")
-@await Component.InvokeAsync("Degrees")
-@await Component.InvokeAsync("Minors")
-@await Component.InvokeAsync("People")
-@await Component.InvokeAsync("Employment")
+<!-- ── HERO ── -->
+<section class="hero">
+    <div class="hero-inner">
+        <p class="hero-eyebrow">Rochester Institute of Technology</p>
+        <h1 class="hero-title">Information Sciences<br />&amp; Technologies</h1>
+        <p class="hero-sub">Preparing students to design, build, and manage the information systems that power modern organizations.</p>
+        <div class="hero-actions">
+            <a asp-controller="Home" asp-action="About" class="btn-primary-link">Explore iSchool</a>
+            <a asp-controller="Home" asp-action="Degrees" class="btn-ghost-link">View Degrees</a>
+        </div>
+    </div>
+</section>
+
+<!-- ── CAROUSEL (jQuery Cycle2) ── -->
+<section class="carousel-section">
+    <div class="carousel-wrap">
+
+        <button class="cycle-prev carousel-btn carousel-btn-prev" aria-label="Previous">&#8592;</button>
+        <button class="cycle-next carousel-btn carousel-btn-next" aria-label="Next">&#8594;</button>
+
+        <div class="cycle-slideshow"
+             data-cycle-fx="fade"
+             data-cycle-speed="600"
+             data-cycle-timeout="4000"
+             data-cycle-prev=".cycle-prev"
+             data-cycle-next=".cycle-next"
+             data-cycle-pager=".carousel-pager">
+
+            <img src="~/images/carousel/photo1.jpg" alt="Students collaborating" />
+            <img src="~/images/carousel/photo2.jpg" alt="Faculty research" />
+            <img src="~/images/carousel/photo3.jpg" alt="Co-op experience" />
+
+        </div>
+
+        <div class="carousel-pager"></div>
+    </div>
+</section>
+
+<!-- ── NAV CARDS ── -->
+<section class="index-grid">
+    <a asp-controller="Home" asp-action="People" class="index-card">
+        <div class="index-card-label">People</div>
+        <div class="index-card-title">Faculty &amp; Staff</div>
+        <div class="index-card-arrow">→</div>
+    </a>
+    <a asp-controller="Home" asp-action="Degrees" class="index-card">
+        <div class="index-card-label">Academics</div>
+        <div class="index-card-title">Degrees &amp; Programs</div>
+        <div class="index-card-arrow">→</div>
+    </a>
+    <a asp-controller="Home" asp-action="Minors" class="index-card">
+        <div class="index-card-label">Academics</div>
+        <div class="index-card-title">Undergraduate Minors</div>
+        <div class="index-card-arrow">→</div>
+    </a>
+    <a asp-controller="Home" asp-action="Employment" class="index-card">
+        <div class="index-card-label">Outcomes</div>
+        <div class="index-card-title">Career &amp; Employment</div>
+        <div class="index-card-arrow">→</div>
+    </a>
+</section>

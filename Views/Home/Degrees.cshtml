@@ -1,55 +1,97 @@
 @model HigginsP3.Models.DegreesModel
-<h1>Degrees</h1>
+@{
+    ViewData["Title"] = "Degrees";
+}
 
-<h2>Undergraduate</h2>
+<div class="page-hero">
+    <div class="page-hero-inner">
+        <p class="page-eyebrow">Academics</p>
+        <h1 class="page-title">Degrees &amp; Programs</h1>
+    </div>
+</div>
 
-@foreach (var d in Model.undergraduate)
-{
-    <div>
-        <h3>@d.title</h3>
-        <p>@d.description</p>
+<div class="content-section">
+    <div class="content-inner">
 
-        <ul>
-            @foreach (var c in d.concentrations)
+        <!-- UNDERGRADUATE -->
+        <div class="degrees-section-label">Undergraduate</div>
+        <div id="accordion-undergrad" class="degree-accordion">
+            @foreach (var d in Model.undergraduate)
             {
-                <li>@c</li>
+                <h3>
+                    <span class="acc-degree-name">@d.degreeName</span>
+                    <span class="acc-degree-title">@d.title</span>
+                </h3>
+                <div>
+                    <p class="acc-desc">@d.description</p>
+
+                    @if (d.concentrations != null && d.concentrations.Count > 0)
+                    {
+                        <div class="acc-sub-label">Concentrations</div>
+                        <div class="acc-tags">
+                            @foreach (var c in d.concentrations)
+                            {
+                                <span class="tag">@c</span>
+                            }
+                        </div>
+                    }
+                </div>
             }
-        </ul>
+        </div>
+
+        <!-- GRADUATE -->
+        <div class="degrees-section-label" style="margin-top: 3rem;">Graduate</div>
+        <div id="accordion-grad" class="degree-accordion">
+            @foreach (var g in Model.graduate)
+            {
+                <h3>
+                    <span class="acc-degree-name">@g.degreeName</span>
+                    <span class="acc-degree-title">@g.title</span>
+                </h3>
+                <div>
+                    <p class="acc-desc">@g.description</p>
+
+                    @if (g.concentrations != null && g.concentrations.Count > 0)
+                    {
+                        <div class="acc-sub-label">Concentrations</div>
+                        <div class="acc-tags">
+                            @foreach (var c in g.concentrations)
+                            {
+                                <span class="tag">@c</span>
+                            }
+                        </div>
+                    }
+
+                    @if (g.availableCertificates != null && g.availableCertificates.Count > 0)
+                    {
+                        <div class="acc-sub-label" style="margin-top:1rem;">Available Certificates</div>
+                        <div class="acc-tags">
+                            @foreach (var cert in g.availableCertificates)
+                            {
+                                <span class="tag tag-outline">@cert</span>
+                            }
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+
     </div>
+</div>
+
+@section Scripts {
+<script>
+    $(function () {
+        $("#accordion-undergrad").accordion({
+            collapsible: true,
+            heightStyle: "content",
+            active: false
+        });
+        $("#accordion-grad").accordion({
+            collapsible: true,
+            heightStyle: "content",
+            active: false
+        });
+    });
+</script>
 }
-
-<hr />
-
-<h2>Graduate</h2>
-
-@foreach (var g in Model.graduate)
-{
-    <div>
-        <h3>@g.title</h3>
-        <p>@g.description</p>
-
-        @if (g.concentrations != null)
-        {
-            <ul>
-                @foreach (var c in g.concentrations)
-                {
-                    <li>@c</li>
-                }
-            </ul>
-        }
-
-        @if (g.availableCertificates != null)
-        {
-            <h4>Certificates</h4>
-            <ul>
-                @foreach (var c in g.availableCertificates)
-                {
-                    <li>@c</li>
-                }
-            </ul>
-        }
-    </div>
-}
-<hr />
-
-<h2>Undergraduate Minors</h2>

@@ -1,12 +1,25 @@
-﻿@model HigginsP3.Models.AboutModel
+@model HigginsP3.Models.AboutModel
 @{
     ViewData["Title"] = "About";
 }
-<div class="About">
-<h1>@Model.title</h1>
 
-<p>@Model.description</p>
+<div class="page-hero">
+    <div class="page-hero-inner">
+        <p class="page-eyebrow">About</p>
+        <h1 class="page-title">@Model.title</h1>
+    </div>
+</div>
 
-<p>@Model.quote</p>
-<p>- @Model.quoteAuthor</p>
+<div class="content-section">
+    <div class="content-inner about-body">
+        <p class="about-description">@Model.description</p>
+
+        @if (!string.IsNullOrEmpty(Model.quote))
+        {
+            <blockquote class="about-quote">
+                <p>@Model.quote</p>
+                <footer class="about-author">— @Model.quoteAuthor</footer>
+            </blockquote>
+        }
+    </div>
 </div>
