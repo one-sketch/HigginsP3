@@ -1,0 +1,30 @@
+
+@model HigginsP3.Models.MinorsModel
+
+<div class="section-wrapper">
+    <div class="section-label">Minors</div>
+    <h1 class="section-title">Undergraduate Minors</h1>
+    <p class="section-subtitle">Explore available minors and required courses</p>
+
+    <div class="minors-grid">
+        @foreach (var m in Model.UgMinors)
+        {
+            <div class="card fade-up">
+                <h3>@m.title</h3>
+                <p>@m.description</p>
+
+                <div class="courses">
+                    @foreach (var c in m.courses)
+                    {
+                        <span class="tag">@c</span>
+                    }
+                </div>
+
+                @if (!string.IsNullOrEmpty(m.note))
+                {
+                    <p class="mono note">@m.note</p>
+                }
+            </div>
+        }
+    </div>
+</div>

@@ -1,0 +1,39 @@
+@{
+    var sections = new[] { "About", "Degrees", "Minors", "People", "Employment" };
+}
+
+<nav class="navbar-custom" id="mainNavbar">
+    <div class="navbar-inner">
+        <div class="navbar-logo" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">
+            <span class="logo-bracket">[</span>i<span class="logo-bracket">]</span>School
+        </div>
+        <button class="hamburger" id="hamburgerBtn">
+            <span></span><span></span><span></span>
+        </button>
+        <ul class="navbar-links" id="navbarLinks">
+            @foreach (var s in sections)
+            {
+                <li>
+                    <button class="nav-link-btn" data-section="@s.ToLower()">@s</button>
+                </li>
+            }
+        </ul>
+    </div>
+</nav>
+
+<style>
+    .nav-link-btn.active {
+        color: var(--black) !important;
+        position: relative;
+    }
+    
+    .nav-link-btn.active::after {
+        content: '';
+        position: absolute;
+        bottom: -2px;
+        left: 0.85rem;
+        right: 0.85rem;
+        height: 2px;
+        background: var(--black);
+    }
+</style>

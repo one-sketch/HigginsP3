@@ -1,0 +1,11 @@
+@{
+    ViewData["Title"] = "RIT iSchool";
+}
+
+<!-- This will be replaced by the actual sections from partials -->
+<!-- Since we want all sections on one page like the React version -->
+@await Component.InvokeAsync("About")
+@await Component.InvokeAsync("Degrees")
+@await Component.InvokeAsync("Minors")
+@await Component.InvokeAsync("People")
+@await Component.InvokeAsync("Employment")

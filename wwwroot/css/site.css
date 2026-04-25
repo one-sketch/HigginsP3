@@ -1,0 +1,378 @@
+.page-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.section-wrapper:last-child {
+  border-bottom: none;
+}
+
+.about-hero {
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.about-quote {
+  margin-top: 2rem;
+  padding-left: 1rem;
+  border-left: 2px solid var(--gray-200);
+  font-family: 'DM Serif Display', serif;
+  font-style: italic;
+  color: var(--gray-500);
+  font-size: 1.1rem;
+}
+
+.about-author {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--gray-400);
+  margin-top: 0.5rem;
+}
+.degrees-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.degree-card {
+  border: 1px solid var(--gray-200);
+  padding: 1.75rem;
+  background: var(--white);
+  transition: background 0.15s;
+}
+
+.degree-card:hover {
+  background: var(--bg);
+}
+
+.degree-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.degree-code {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--gray-400);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.degree-desc {
+  font-size: 0.9rem;
+  color: var(--gray-500);
+  line-height: 1.7;
+}
+.people-page-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1px;
+  border: 1px solid var(--gray-200);
+  background: var(--gray-200);
+}
+
+.people-page-card {
+  background: var(--white);
+  padding: 1rem;
+  cursor: pointer;
+  transition: background 0.15s;
+}
+
+.people-page-card:hover {
+  background: var(--bg);
+}
+
+.people-name {
+  font-family: 'DM Serif Display', serif;
+  font-size: 0.95rem;
+}
+
+.people-title {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  color: var(--gray-400);
+}
+.minors-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  gap: 1px;
+  border: 1px solid var(--gray-200);
+  background: var(--gray-200);
+}
+
+.minor-card {
+  background: var(--white);
+  padding: 1.75rem;
+  border: 1px solid var(--gray-200);
+}
+
+.minor-card:hover {
+  background: var(--bg);
+}
+
+.minor-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.minor-desc {
+  font-size: 0.85rem;
+  color: var(--gray-500);
+  line-height: 1.7;
+}
+
+.minor-courses {
+  margin-top: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+}
+.employment-hero {
+  max-width: 900px;
+  margin-bottom: 3rem;
+}
+
+.employment-section-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.employment-section-text {
+  font-size: 0.9rem;
+  color: var(--gray-500);
+  line-height: 1.8;
+}
+
+.employment-chip-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem;
+}
+
+/* =========================
+   EMPLOYMENT PAGE WRAPPER
+========================= */
+
+.employment-section {
+  background: var(--bg);
+}
+
+/* =========================
+   INTRO SECTION
+========================= */
+
+.section-wrapper {
+  padding: 5rem 7vw;
+  border-bottom: 1px solid var(--gray-200);
+}
+
+.section-label {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.72rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--gray-400);
+  margin-bottom: 0.75rem;
+}
+
+.section-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  font-weight: 400;
+  color: var(--black);
+  margin-bottom: 1.25rem;
+}
+
+.employment-section-text {
+  font-size: 0.95rem;
+  color: var(--gray-500);
+  line-height: 1.8;
+  max-width: 900px;
+  margin-bottom: 1rem;
+}
+
+/* =========================
+   DEGREE STATS
+========================= */
+
+.degree-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  border: 1px solid var(--gray-200);
+  margin: 0 7vw 3rem 7vw;
+  background: var(--white);
+}
+
+.employment-stat {
+  padding: 1.75rem;
+  border-right: 1px solid var(--gray-200);
+}
+
+.employment-stat:last-child {
+  border-right: none;
+}
+
+.employment-stat-value {
+  font-family: 'DM Serif Display', serif;
+  font-size: 2rem;
+  color: var(--black);
+  line-height: 1;
+  margin-bottom: 0.5rem;
+}
+
+.employment-stat-desc {
+  font-size: 0.8rem;
+  color: var(--gray-400);
+  line-height: 1.5;
+}
+
+/* =========================
+   TABLE BLOCKS (SHARED)
+========================= */
+
+.table-block {
+  margin: 0 7vw 3rem 7vw;
+}
+
+.table-block-title {
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  color: var(--black);
+}
+
+/* Data wrapper */
+.datagrid-wrap {
+  border: 1px solid var(--gray-200);
+  background: var(--white);
+  overflow: hidden;
+}
+
+/* =========================
+   EMPLOYERS / CAREERS LIST
+========================= */
+
+.employer-item,
+.career-item {
+  font-size: 0.9rem;
+  color: var(--gray-500);
+  padding: 0.75rem 0;
+  border-bottom: 1px solid var(--gray-100);
+}
+
+.employer-item:last-child,
+.career-item:last-child {
+  border-bottom: none;
+}
+
+/* hover subtle */
+.employer-item:hover,
+.career-item:hover {
+  color: var(--black);
+}
+
+/* =========================
+   DATA TABLE (DATA TABLES / HTML TABLE)
+========================= */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.85rem;
+}
+
+thead {
+  background: var(--black);
+  color: var(--white);
+}
+
+th {
+  text-align: left;
+  padding: 1rem;
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--gray-300);
+}
+
+td {
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--gray-100);
+  color: var(--gray-500);
+}
+
+tbody tr:hover {
+  background: var(--bg);
+}
+
+/* =========================
+   DATATABLES OVERRIDES
+========================= */
+
+.dataTables_wrapper {
+  padding: 1rem;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.dataTables_length,
+.dataTables_filter,
+.dataTables_info,
+.dataTables_paginate {
+  font-size: 0.8rem;
+  color: var(--gray-400);
+}
+
+.dataTables_filter input {
+  border: 1px solid var(--gray-200);
+  padding: 0.4rem 0.6rem;
+  outline: none;
+}
+
+.dataTables_filter input:focus {
+  border-color: var(--black);
+}
+
+/* pagination buttons */
+.dataTables_paginate .paginate_button {
+  font-family: 'DM Mono', monospace;
+  font-size: 0.7rem;
+  border: 1px solid var(--gray-200);
+  padding: 0.3rem 0.6rem;
+  margin: 0 2px;
+  cursor: pointer;
+}
+
+.dataTables_paginate .paginate_button.current {
+  background: var(--black);
+  color: var(--white) !important;
+  border-color: var(--black);
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width: 900px) {
+  .degree-stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .section-wrapper,
+  .table-block {
+    padding: 3rem 5vw;
+    margin: 0;
+  }
+
+  .degree-stats-grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,15 @@
+@model HigginsP3.Models.MinorsModel
+
+<div class="section-wrapper">
+    <div class="section-label">Minors</div>
+    <h1 class="section-title">Undergraduate Minors</h1>
+
+    @foreach (var m in Model.UgMinors)
+    {
+        <div class="card fade-up">
+            <h3>@m.title</h3>
+            <p>@m.description</p>
+            <span class="tag">@m.name</span>
+        </div>
+    }
+</div>

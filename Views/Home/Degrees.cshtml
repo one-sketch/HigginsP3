@@ -1,0 +1,55 @@
+@model HigginsP3.Models.DegreesModel
+<h1>Degrees</h1>
+
+<h2>Undergraduate</h2>
+
+@foreach (var d in Model.undergraduate)
+{
+    <div>
+        <h3>@d.title</h3>
+        <p>@d.description</p>
+
+        <ul>
+            @foreach (var c in d.concentrations)
+            {
+                <li>@c</li>
+            }
+        </ul>
+    </div>
+}
+
+<hr />
+
+<h2>Graduate</h2>
+
+@foreach (var g in Model.graduate)
+{
+    <div>
+        <h3>@g.title</h3>
+        <p>@g.description</p>
+
+        @if (g.concentrations != null)
+        {
+            <ul>
+                @foreach (var c in g.concentrations)
+                {
+                    <li>@c</li>
+                }
+            </ul>
+        }
+
+        @if (g.availableCertificates != null)
+        {
+            <h4>Certificates</h4>
+            <ul>
+                @foreach (var c in g.availableCertificates)
+                {
+                    <li>@c</li>
+                }
+            </ul>
+        }
+    </div>
+}
+<hr />
+
+<h2>Undergraduate Minors</h2>

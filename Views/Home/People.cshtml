@@ -1,0 +1,64 @@
+@model HigginsP3.Models.PeopleModel
+@{
+    ViewData["Title"] = "People";}
+<h1>@Model.title</h1>
+<p>@Model.subTitle</p>
+
+<hr>
+<div id="peopletabs">
+  <ul>
+    <li><a href="#factabs-1">Faculty</a></li>
+    <li><a href="#stafftabs-2">Staff</a></li>
+  </ul>
+  <div id="factabs-1">
+    <h2>Faculty</h2>
+
+    @foreach (var p in Model.faculty)
+    {
+        <div class="person">
+            <img src="@p.imagePath" width="120" />
+
+            <h3>@p.name</h3>
+            <p>@p.title</p>
+            <p>@p.tagline</p>
+            <p>@p.interestArea</p>
+            <p>@p.office</p>
+            <p>@p.phone</p>
+            <p>@p.email</p>
+
+            @if (!string.IsNullOrEmpty(p.website))
+            {
+                <a href="@p.website" target="_blank">Website</a>
+            }
+
+            <hr />
+        </div>
+    }
+  </div>
+  <div id="stafftabs-2">
+    <h2>Staff</h2>
+
+    @foreach (var p in Model.staff)
+    {
+        <div class="person">
+            <img src="@p.imagePath" width="120" />
+
+            <h3>@p.name</h3>
+            <p>@p.title</p>
+            <p>@p.tagline</p>
+            <p>@p.interestArea</p>
+            <p>@p.office</p>
+            <p>@p.phone</p>
+            <p>@p.email</p>
+
+            @if (!string.IsNullOrEmpty(p.website))
+            {
+                <a href="@p.website" target="_blank">Website</a>
+            }
+
+            <hr />
+        </div>
+    }
+  </div>
+</div>
+<hr />
