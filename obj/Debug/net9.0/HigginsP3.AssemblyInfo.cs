@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("HigginsP3")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+051c1fdf74bc0b522157a0ac102b23baa70f41db")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+add40e0ea8923e47c77d92fc44730faa8d05b537")]
 [assembly: System.Reflection.AssemblyProductAttribute("HigginsP3")]
 [assembly: System.Reflection.AssemblyTitleAttribute("HigginsP3")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

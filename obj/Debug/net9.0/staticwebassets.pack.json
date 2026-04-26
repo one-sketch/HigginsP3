@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\images\\carousel\\photo1.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel\\photo1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\images\\carousel\\photo2.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel\\photo2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\images\\carousel\\photo3.jpg",
+      "PackagePath": "staticwebassets\\images\\carousel\\photo3.jpg"
+    },
+    {
       "Id": "C:\\Users\\mskhi\\Desktop\\RIT\\2026\\HigginsP3\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
